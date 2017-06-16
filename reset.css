@@ -1,10 +1,3 @@
-# im-reset
-
-这是一份重置样式表。在 [normalize.css](https://necolas.github.io/normalize.css/)(v7.0.0) 的基础上，根据一些使用习惯进行了归零设置，且设置所有元素的 box-sizing 为 border-box，外加一个 clearfix 类。
-
-注：因为设置了`* {box-sizing: border-box}`，所以请在 IE8+ 或移动端使用。如果不是新项目，请慎用，因为杀伤力太大。
-
-```css
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -320,4 +313,3 @@ i {
   display: table;
   clear: both;
 }
-```
